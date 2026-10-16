@@ -1,56 +1,16 @@
-# Dog-Ear Books
+# React + Vite
 
-A single-page website for an independent bookstore. This is my own version of a group project: our team agreed on the same idea and look, but each of us built our own site from scratch in our own repo.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Built with plain HTML5 and CSS3. No frameworks, no JavaScript.
+Currently, two official plugins are available:
 
-## What's on the page
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- A header with navigation links that scroll to each section
-- A short intro at the top
-- Three book sections (fiction, nonfiction and staff picks) laid out as product cards
-- An events section for readings and book clubs
-- A footer with opening hours and contact details
+## React Compiler
 
-## Folder structure
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-```
-index.html
-css/
-  style.css
-media/
-  (book cover images, SVG)
-```
+## Expanding the Oxlint configuration
 
-## How to run it
-
-There's nothing to install. Download or clone the repo and open `index.html` in a browser.
-
-```
-git clone <your-repo-link>
-```
-
-## Notes on how it's built
-
-- Semantic tags are used for the page structure (`header`, `nav`, `main`, `section`, `article`, `footer`), with one `h1`.
-- `box-sizing: border-box` is set on everything, and all colours come from CSS variables in `:root`.
-- Flexbox is used for the header, nav, card layout, event dates and footer.
-- Grid is used for the book cards and the events list. The book grid uses `auto-fit` with `minmax`, so it changes the number of columns by itself as the screen gets narrower.
-- It has been checked at phone, tablet and desktop widths, and there is no horizontal scrolling.
-
-## About the content
-
-The shop name, book titles, authors, prices and events are made up for this assignment. The book covers are simple SVG placeholders I made, not real covers.
-
-## Team
-
-This is one of several sites built by our group using the same brief.
-
-- Bookstore C-4:
-- Elsie
-- Gabriel 
-
-
-## Use of AI
-
-I used AI to help get started and to understand parts of the code. I went through the code myself and can explain how it works.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
