@@ -46,11 +46,10 @@ The shop name, book titles, authors, prices and events are made up for this assi
 
 This is one of several sites built by our group using the same brief.
 
-- Your name (this repo)
-- Teammate name
-- Teammate name
-- Teammate name
-- Teammate name
+- Bookstore:
+- Elsie
+- Gabriel 
+
 
 ## Use of AI
 
